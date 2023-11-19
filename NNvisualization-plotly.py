@@ -8,7 +8,7 @@ from tensorflow.keras.layers import Dense
 import plotly.graph_objects as go
 
 # Load the dataset
-url = 'your_dataset_file_path.csv'  # Replace with the actual path to your CSV file
+url = 'breast_cancer.csv'  # Replace with the actual path to our CSV file
 data = pd.read_csv(url)
 
 # Select relevant columns
