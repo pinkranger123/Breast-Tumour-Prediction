@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-url = 'your_dataset_file_path.csv'  # Replace with the actual path to your CSV file
+url = 'breast_cancer.csv'  # Replace with the actual path to our CSV file
 data = pd.read_csv(url)
 
 # Preprocess the data
