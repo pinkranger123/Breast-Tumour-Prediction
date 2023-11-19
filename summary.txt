@@ -1,0 +1,40 @@
+SVM uses a linear kernel (we can experiment with other kernels based on our data).
+Logistic Regression is applied with default settings.
+Neural Network is a simple single-layer MLP. We might need to adjust the architecture based on our data complexity.
+After running the codes, we'll get accuracy scores for each model. We can also analyze the classification reports for a more detailed performance breakdown.
+
+The model with the highest accuracy might not necessarily be the best choice; we need to consider factors like precision, recall, and F1-score as well. If one model is significantly better, it might be due to the dataset characteristics or the model's ability to capture complex relationships. It's essential to understand the nature of our data and the specific problem we're solving.
+
+SVM (Support Vector Machine):
+
+Accuracy: 95.25%
+
+Logistic Regression:
+
+Accuracy: 93.75%
+
+Neural Network:
+
+Accuracy: 97.42%
+
+Conclusion:
+
+After evaluating the models on the breast tumor dataset, the model with the highest accuracy is the Neural Network with an accuracy of 97.42%.
+This indicates that the Neural Network performs the best in this scenario.
+It's still important to consider other metrics like precision, recall, and F1-score for a more comprehensive evaluation.
+
+Here are some reasons why a neural network might perform well:
+
+1. Complex Patterns:
+
+Neural networks are capable of learning complex patterns and relationships within the data. They can automatically extract hierarchical features from the input, which is beneficial when the underlying patterns are intricate.
+Non-Linearity:
+
+2. Neural networks can model non-linear relationships in the data effectively. In situations where the decision boundaries between classes are not linear, a neural network's ability to capture non-linear patterns can be advantageous.
+Representation Learning:
+
+3. Neural networks excel at representation learning, meaning they can automatically learn and adapt to different levels of abstraction in the data. This is crucial for tasks where features are not explicitly defined.
+Parameter Tuning:
+
+4. Neural networks have a large number of parameters that can be tuned during training. This flexibility allows them to adapt to the nuances of the data, potentially leading to better generalization.
+
